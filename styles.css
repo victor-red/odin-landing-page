@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Hero, Arial, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -84,26 +85,35 @@ a{
 }
 
 .section-two-header{
-    margin-top: 36px;
-    margin-bottom: 36px;
+    margin-top: 72px;
+    margin-bottom: 18px;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 1000;
+    color: #1F2937;
 }
 
 .section-two-content{
     display: flex;
-    gap: 36px;
+    gap: 72px;
 }
 
 .section-two-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 75px;
 }
 
 .section-two-image{
-    max-height: 150px;
+    border: #3882f6 solid;
+    border-radius: 10px;
+    max-height: 300px;
+    max-width: 250px;
+    margin-bottom: 16px;
+}
+
+.section-two-container-text{
+    font-size: 18px;
     max-width: 150px;
 }
 
@@ -119,7 +129,7 @@ a{
 .section-three-quote{
     font-size: 36px;
     font-style: italic;
-    max-width: 700px;
+    max-width: 900px;
 }
 
 .section-three-quoted{
