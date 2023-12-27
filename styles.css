@@ -42,9 +42,27 @@ a{
     align-items: center;
 }
 
+.section-one-button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 35px;
+    width: 120px;
+    align-self: flex-start;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
 .section-one-header{
     font-size: 48px;
+    color: #f9faf8;
+    max-width: 400px;
     font-weight: bolder;
+}
+
+.section-one-image{
+    height: 300px;
+    width: 600px;
+    margin-left: 150px;
 }
 
 .section-one-info{
@@ -52,6 +70,9 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
+    color: #e5E7EB;
+    max-width: 400px;
 }
 
 .page-section-two{
